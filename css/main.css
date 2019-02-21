@@ -67,9 +67,7 @@ body {
     left: 10px;
     font: 1.5em 'FontAwesome';
   }
-  .checked:before{
-      
-  }
+  
   label:hover, input:focus + label {
     background-color: rgba(255, 255, 255, .2);
   }

@@ -20,7 +20,7 @@
                 //document.getElementById('fruits').innerHTML += `<li>${frt}</li>`;
                 
                 // Create a new element:            <li></li>
-                var oneFruit = document.createElement('div');
+                var oneFruit = document.createElement('li');
                 
                 // Add inner HTML to it:            <li>apple</li>
                 oneFruit.innerHTML = frt.name;
@@ -30,7 +30,7 @@
                 
                 // If the fruit is unavailable:     <li class="fruit unavailable">apple</li>
                 if (frt.available == false)
-                  oneFruit.classList.add('checked');
+                  oneFruit.classList.add('');
                 
                 // Add it to the fruits list:       <ul id="fruits"><li class="fruit unavailable">apple</li></ul>
                 document.getElementById('fruits').appendChild(oneFruit);
